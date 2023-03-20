@@ -1,8 +1,0 @@
-C:\Users\MSI\OneDrive\Desktop\C#\Net II Step\Net II Step\bin\Debug\Net II Step.exe.config
-C:\Users\MSI\OneDrive\Desktop\C#\Net II Step\Net II Step\bin\Debug\Net II Step.exe
-C:\Users\MSI\OneDrive\Desktop\C#\Net II Step\Net II Step\bin\Debug\Net II Step.pdb
-C:\Users\MSI\OneDrive\Desktop\C#\Net II Step\Net II Step\obj\Debug\Net II Step.csproj.AssemblyReference.cache
-C:\Users\MSI\OneDrive\Desktop\C#\Net II Step\Net II Step\obj\Debug\Net II Step.csproj.SuggestedBindingRedirects.cache
-C:\Users\MSI\OneDrive\Desktop\C#\Net II Step\Net II Step\obj\Debug\Net II Step.csproj.CoreCompileInputs.cache
-C:\Users\MSI\OneDrive\Desktop\C#\Net II Step\Net II Step\obj\Debug\Net II Step.exe
-C:\Users\MSI\OneDrive\Desktop\C#\Net II Step\Net II Step\obj\Debug\Net II Step.pdb
