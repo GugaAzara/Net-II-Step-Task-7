@@ -1,0 +1,40 @@
+// Task 6 First Part query command
+
+CREATE TABLE Teachers (
+	TeacherId int,
+	FirstName varchar(255),
+	Lastname varchar(255),
+	Sex varchar(255),
+	Subject varchar(255),
+
+	Primary key (TeacherId)
+);
+
+Create Table Pupils (
+	PupilId int,
+	FirstName varchar(255),
+	Lastname varchar(255),
+	Sex varchar(255),
+	Class varchar(255),
+
+	Primary key (PupilId)
+)
+
+Create Table TeacherPupil (
+	RelationshipId int,
+	PupilID int,
+	TeacherId int,
+
+	Primary key (RelationshipId),
+	foreign key (PupilId) References Teachers(TeacherId),
+	foreign key (TeacherId) References Pupils(PupilId),
+)
+
+// Task 6 Second Part query command
+
+select Teachers.FirstName, Teachers.LastName, Pupils.FirstName
+FROM TeacherPupil
+INNER JOIN Teachers ON TeacherPupil.TeacherId = Teachers.TeacherId
+INNER JOIN Pupils ON  TeacherPupil.PupilId = Pupils.PupilId where Pupils.FirstName = 'Giorgi';
+
+
